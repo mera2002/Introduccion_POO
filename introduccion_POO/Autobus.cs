@@ -11,9 +11,25 @@ namespace introduccion_POO
         //definir los miembros de la clase 
         //propiedades
         private int _cod;
-        private string autobusName; //nombre del autobus
+        private string _autobusName; //nombre del autobus
         private int _number; //numero de ruta 
         private int _amount; //cantidad de asientos disponibles 
+
+
+        //METODO CONTRUCTOR 
+        public Autobus()//metodo vacio 
+        { }
+
+        //soporte de sobre carga de contructor 
+        public Autobus(int cod, string autobusName, int number,int amount, string color)
+        {
+            _cod = cod;
+            _autobusName = autobusName;
+            _number = number;
+            _amount = amount;
+            _Color = color; 
+        }
+
 
         //metodos de propiedad 
 
@@ -35,12 +51,12 @@ namespace introduccion_POO
       
          public string getName()
          {
-             return autobusName;
+             return _autobusName;
         }
 
          public void setName(string Name)
          {
-            autobusName = Name;
+            _autobusName = Name;
          }
 
         // numero de ruta 
@@ -58,7 +74,7 @@ namespace introduccion_POO
         {
             return _amount;
         }
-        public void serAmount( int Amount)
+        public void setAmount( int Amount)
         {
             _amount = Amount;
         }
@@ -67,9 +83,13 @@ namespace introduccion_POO
         //propiedad color de autobus 
 
         //propiedad implementada
-         public string Color { get; set; }
+         public string _Color { get; set; }
 
-
+        public string getAutobusInfo()
+        {
+            return "Cod: " +  _cod + "Nombre: " +  _autobusName +
+                "Ruta: " +  _number + "Asientos disponibles: " + _amount + "Color: " + _Color; 
+        }
 
 
 

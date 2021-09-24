@@ -1,0 +1,10 @@
+C:\introduccion_POO\introduccion_POO\bin\Debug\introduccion_POO.exe.config
+C:\introduccion_POO\introduccion_POO\bin\Debug\introduccion_POO.exe
+C:\introduccion_POO\introduccion_POO\bin\Debug\introduccion_POO.pdb
+C:\introduccion_POO\introduccion_POO\obj\Debug\introduccion_POO.csproj.AssemblyReference.cache
+C:\introduccion_POO\introduccion_POO\obj\Debug\introduccion_POO.Form1.resources
+C:\introduccion_POO\introduccion_POO\obj\Debug\introduccion_POO.Properties.Resources.resources
+C:\introduccion_POO\introduccion_POO\obj\Debug\introduccion_POO.csproj.GenerateResource.cache
+C:\introduccion_POO\introduccion_POO\obj\Debug\introduccion_POO.csproj.CoreCompileInputs.cache
+C:\introduccion_POO\introduccion_POO\obj\Debug\introduccion_POO.exe
+C:\introduccion_POO\introduccion_POO\obj\Debug\introduccion_POO.pdb
