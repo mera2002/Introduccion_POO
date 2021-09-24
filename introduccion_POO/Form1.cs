@@ -55,7 +55,7 @@ namespace introduccion_POO
 
             // agregar los datos a lisbox 
             
-            listAutobusInfo.Items.Add("Mediante conturctor vacio: " + autobus.getAutobusInfo());
+            listAutobusInfo.Items.Add("Mediante contructor vacio: " + autobus.getAutobusInfo());
          
 
 
